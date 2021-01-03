@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="app.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Job Application</h1>
+                <p>Please complete the form below to appluy for a position with us</p>
+            </div>
+            <form action="" class="form">
+                <div class="form-control">
+                    <label for="fullname" class="label-head">Full Name</label>
+                    <div class="row">
+                        <div class="item start">
+                            <input id="txtFname" type="text" for="name"/>
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="item middle">
+                            <input id="txtMname" type="text" for="mname"/>
+                            <label for="mname">Middle Name</label>
+                        </div>
+                        <div class="item last">
+                            <input id="txtLname" type="text" for="lname"/>
+                            <label for="lname">Last Name</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label for="fullname" class="label-head">Birth Date</label>
+                    <div class="row">
+                        <div class="item start">
+                            <select name="month" id="dropmonth" class="form-dropdown">
+                                <option>  </option>
+                                <option value="January"> January </option>
+                                <option value="February"> February </option>
+                                <option value="March"> March </option>
+                                <option value="April"> April </option>
+                                <option value="May"> May </option>
+                                <option value="June"> June </option>
+                                <option value="July"> July </option>
+                                <option value="August"> August </option>
+                                <option value="September"> September </option>
+                                <option value="October"> October </option>
+                                <option value="November"> November </option>
+                                <option value="December"> December </option>
+                              </select>
+                            <label for="month">Month</label>
+                        </div>
+                        <div class="item middle">
+                            <select name="day" id=dropday" class="form-dropdown">
+                                <option>  </option>
+                                <option value="1"> 1 </option>
+                                <option value="2"> 2 </option>
+                                <option value="3"> 3 </option>
+                                <option value="4"> 4 </option>
+                                <option value="5"> 5 </option>
+                                <option value="6"> 6 </option>
+                                <option value="7"> 7 </option>
+                                <option value="8"> 8 </option>
+                                <option value="9"> 9 </option>
+                                <option value="10"> 10 </option>
+                                <option value="11"> 11 </option>
+                                <option value="12"> 12 </option>
+                                <option value="13"> 13 </option>
+                                <option value="14"> 14 </option>
+                                <option value="15"> 15 </option>
+                                <option value="16"> 16 </option>
+                                <option value="17"> 17 </option>
+                                <option value="18"> 18 </option>
+                                <option value="19"> 19 </option>
+                                <option value="20"> 20 </option>
+                                <option value="21"> 21 </option>
+                                <option value="22"> 22 </option>
+                                <option value="23"> 23 </option>
+                                <option value="24"> 24 </option>
+                                <option value="25"> 25 </option>
+                                <option value="26"> 26 </option>
+                                <option value="27"> 27 </option>
+                                <option value="28"> 28 </option>
+                                <option value="29"> 29 </option>
+                                <option value="30"> 30 </option>
+                                <option value="31"> 31 </option>
+                              </select>
+                            <label for="day">Day</label>
+                        </div>
+                        <div class="item last">
+                            <select name="year" id="dropyear" class="form-dropdown">
+                                <option>  </option>
+                                <option value="2021"> 2021 </option>
+                                <option value="2020"> 2020 </option>
+                                <option value="2019"> 2019 </option>
+                                <option value="2018"> 2018 </option>
+                                <option value="2017"> 2017 </option>                                
+                              </select>
+                            <label for="year">Year</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-control address">
+                    <label for="fullname" class="label-head">Current address</label>
+                    <div class="row addresslvl">
+                        <div class="item">
+                            <input id="txtsaddress1" type="text" for="saddress1"/>
+                            <label class="smlabel"  for="saddress1">Street Address</label>
+                        </div>
+                    </div>                   
+                    <div class="row addresslvl">
+                        <div class="item">
+                            <input id="txtsaddress2" type="text" for="txtsaddress2"/>
+                            <label for="txtsaddress2">Street Address Line 2</label>
+                        </div>
+                    </div>
+                    <div class="row addresslvl">
+                        <div class="item">
+                            <input id="txtcity" type="text" for="city"/>
+                            <label for="city">City</label>
+                        </div>
+                        <div class="item middle">
+                            <input id="txtstate" type="text" for="txtstate"/>
+                            <label for="txtstate">State / Province</label>
+                        </div>
+                    </div>
+                    <div class="row addresslvl">
+                        <div class="item">
+                            <input id="txtPostal" type="text" for="postal"/>
+                            <label for="postal">First Name</label>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label for="fullname" class="label-head">Email Address</label>
+                    <div class="row">
+                        <div class="item">
+                            <input placeholder="ex: myname@example.com" id="txtsaddress1" type="text" for="saddress1"/>
+                            <label for="saddress1">example@example.com</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label for="fullname" class="label-head">Phone Number</label>
+                    <div class="row">
+                        <div class="item">
+                            <input placeholder="(000)-000-0000" id="txtphone" type="text" for="phone"/>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="form-control">
+                    <label for="fullname" class="label-head">LinkedIn</label>
+                    <div class="row">
+                        <div class="item">
+                            <input id="txtLinkedIn" type="text" for="linkedIn"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label for="postionApplied" class="label-head">Postion Applied</label>
+                    <div class="row">
+                        <div class="item">
+                            <select class="form-dropdown dropdownhwhear" name="postionApplied" id="dropdownpa">
+                                <option value="pleaseselect">Please select</option>
+                                <option value="work1">Work 1</option>
+                                <option value="work2">Work2</option>
+                                <option value="anyposition">AnyPosition</option>
+                              </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label for="hwhear" class="label-head">How did you hear us</label>
+                    <div class="row">
+                        <div class="item">
+                            <select class="form-dropdown dropdownhwhear" name="hwhear" id="dropdownhwhear">
+                                <option value="email">Email</option>
+                                <option value="linkedin">LinedIn</option>
+                                <option value="event">Event</option>
+                                <option value="socialmedia">Social Media</option>
+                              </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label for="upresume" class="label-head">Upload Resume</label>
+                    <div class="row">
+                        <div class="item">
+                           <input type="file" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label for="cletter" class="label-head">Cover Letter</label>
+                    <div class="row">
+                        <div class="item">
+                            <textarea id="w3review" name="w3review" rows="4" cols="50">
+                                </textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
