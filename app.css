@@ -134,7 +134,7 @@ label{
         box-shadow: 0 4px 4px rgba(87,100,126,.21);
         background-color: #fff;
         max-width: 752px;
-        margin:10px;;
+        margin:20px;
     }  
     .row{
         display:flex;
